@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Chat Clase Redes</title>
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+  <div id="chat-container">
+    <div id="chat-window">
+      <div id="output"></div>
+      <div id="actions"></div>
+    </div>
+    <input type="text" id="username" placeholder="Nombre de Usuario">
+    <input type="text" id="message" placeholder="Mensaje">
+    <button type="button" id="send" name="button">Enviar</button>
+  </div>
+  <script src="/socket.io/socket.io.js" charset="utf-8"></script>
+  <script src= "chat.js" charset="utf-8"></script>
+  </body>
+</html>
